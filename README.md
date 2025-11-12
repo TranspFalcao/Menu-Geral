@@ -1,47 +1,29 @@
-# 🚚 Site Transportadora Falcão
+# Portal Contábil - Transportadora Falcão Ltda
 
-Este projeto é um site simples e responsivo para a **Transportadora Falcão Ltda**, contendo um menu com links para páginas internas e destaque da página ativa.
+Este projeto é um site institucional para a Transportadora Falcão Ltda, com as seguintes características:
 
-## 📂 Estrutura do Projeto
+- Menu fixo com ícones (Font Awesome)
+- Design limpo e responsivo (Desktop e Mobile)
+- Animação suave no hover
+- Rodapé com informações e ícones sociais
+- Estrutura pronta para publicação no GitHub Pages
 
-```
-/
-├── index.html        # Página inicial
-├── agenda.html       # Página de Agenda
-├── impostos.html     # Página de Impostos
-├── cnd.html          # Página de Certidões Negativas
-├── style.css         # Estilos do site
-├── script.js         # Script para destacar página ativa
-└── logo_falcao_transparente.png # Logo da empresa
-```
+## Como publicar no GitHub Pages
 
-## ✨ Funcionalidades
-
-- **Menu Responsivo** com links para todas as páginas.
-- **Destaque da Página Ativa** usando a classe `.active`.
-- **Estilo refinado** com fonte Open Sans e animação hover.
-- Estrutura pronta para expansão.
-
-## 🔧 Como Usar
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seuusuario/seurepositorio.git
+1. Crie um repositório no GitHub.
+2. Faça upload dos arquivos deste projeto (`index.html`, `style.css`, `logo_falcao_transparente.png`, `README.md`).
+3. Vá em **Settings > Pages** e selecione:
+   - Branch: `main`
+   - Pasta: `/root`
+4. O site ficará disponível em:
    ```
-2. **Acesse a pasta do projeto**:
-   ```bash
-   cd seurepositorio
+   https://seuusuario.github.io/nome-do-repositorio
    ```
-3. **Abra o arquivo `index.html`** no navegador.
 
-## 🌐 Publicação no GitHub Pages
+## Tecnologias utilizadas
+- HTML5
+- CSS3
+- Font Awesome (para ícones)
 
-1. Suba os arquivos para o repositório no GitHub.
-2. Vá em **Configurações > Pages**.
-3. Selecione a branch principal e a pasta raiz (`/`).
-4. Salve e aguarde a publicação.
-
-## 🖌 Personalização
-
-- Substitua `logo_falcao_transparente.png` pelo logo oficial.
-- Ajuste cores e fontes no `style.css` conforme sua identidade visual.
+## Autor
+Transportadora Falcão Ltda
