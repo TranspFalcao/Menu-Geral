@@ -6,6 +6,7 @@ Este projeto é um site institucional para a Transportadora Falcão Ltda, com as
 - Design limpo e responsivo (Desktop e Mobile)
 - Animação suave no hover
 - Rodapé com informações e ícones sociais
+- Espaçamento ajustado entre logo e menu
 - Estrutura pronta para publicação no GitHub Pages
 
 ## Como publicar no GitHub Pages
