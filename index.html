@@ -3,37 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Contábil - Transportadora Falcão Ltda</title>
+    <title>Portal Contábil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+    <!-- Cabeçalho fixo -->
     <header>
-        <div class="logo">
-            <img src="logo_falcao_transparente.png" alt="Logo Falcão">
-        </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="#"><i class="fas fa-home"></i> Menu</a></li>
-                <li><a href="#"><i class="fas fa-calendar-alt"></i> Agenda Tributária</a></li>
-                <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Impostos</a></li>
-                <li><a href="#"><i class="fas fa-shield-alt"></i> Controle de CND</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom sticky-top">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="img/logo.png" alt="Logo" height="50"> <span class="ms-2 fw-bold text-danger">Falcão</span>
+                </a>
+
+                <!-- Botão hambúrguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Agenda Tributária</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Impostos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Controle de CND</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
+    <main class="container mt-4">
         <h1>Bem-vindo ao Portal Contábil da Transportadora Falcão Ltda.</h1>
         <p>Escolha uma seção no menu acima para navegar.</p>
     </main>
 
-    <footer>
-        <p>© 2025 Transportadora Falcão Ltda | Todos os direitos reservados</p>
-        <div class="social-icons">
-            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        </div>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
